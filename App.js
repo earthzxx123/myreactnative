@@ -13,31 +13,25 @@ import Ex9 from './screens/week2/Ex9';
 import Ex10 from './screens/week2/Ex10';
 import Ex11 from './screens/week2/Ex11';
 import Ex12 from './screens/week2/Ex12';
-
+import Travel from './screens/week3/Travel';
+import Resort from './screens/week4/Resort';
  
 export default function App() {
   return (
-    // <Welcome/>
-    // <Ex1/>
-    // <Ex2/>
-    // <Ex3/>
-    // <Ex4/>
-    // <Ex5/>
-    // <Ex6/>
-    // <Ex7/>
-    // <Ex8/>
-    // <Ex9/>
-    // <Ex10/>
-    // <Ex11/>
-    // <Ex12/>
+    // <Ex1 />
+    // <Ex2 />
+    // <Ex3 />
+    // <Ex4 />
+    // <Ex5 />
+    // <Ex6 />
+    // <Ex7 />
+    // <Ex8 />
+    // <Ex9 />
+    // <Ex10 />
+    // <Ex11 />
+    // <Ex12 />
+    // <Travel />
+    // <Signup />
+    <Resort />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
