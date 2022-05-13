@@ -12,7 +12,7 @@ export default function femenu() {
             </View>
 
             {/* ก้อนที่2 */}
-            <View style={{ flexDirection: 'row', justifyContent: 'space-around' ,marginVertical:10}}>
+            <View style={{ flexDirection: 'row', justifyContent: 'space-around', marginVertical: 10 }}>
                 <MyIcon title='หัวใจ' name='heart' size={30} color="orange" />
                 <MyIcon title='หัวใจ' name='heart' size={30} color="orange" />
                 <MyIcon title='หัวใจ' name='heart' size={30} color="orange" />
