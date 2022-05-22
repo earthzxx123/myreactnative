@@ -19,6 +19,7 @@ import Card from './components/week3/Card';
 import Signup from './components/week3/Signup';
 import Health from './screens/week5/Health';
 import Try from './screens/week2/try';
+import Home from './screens/week6/Hoem';
 
 export default function app() {
   return (
@@ -39,6 +40,7 @@ export default function app() {
     // <Resort />
     // <Health />
     // <Try/>
+    <Homee />
 
   );
-}
+} 
