@@ -18,5 +18,3 @@ export default function UniversityMarkers(props) {
     </MapView.Marker>
   ));
 }
-
-
