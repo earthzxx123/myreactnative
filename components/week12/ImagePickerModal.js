@@ -32,13 +32,18 @@ export default function ImagePickerModal(props) {
         onPress={() => { props.setModalVisible(false); }}
       >
         <View style={{ margin: 20, backgroundColor: "white", padding: 15 }}>
-          <TouchableOpacity style={{ padding: 15 }} onPress={() => { pickImage("camera"); props.setModalVisible(false); }} >
+          <TouchableOpacity style={{ padding: 15 }} onPress={() => {
+            setTimeout(async function () { await pickImage("camera"); }, 100);
+            pickImage("camera"); props.setModalVisible(false);
+          }} >
             <Text> Take Photo ...</Text>
           </TouchableOpacity>
           <TouchableOpacity style={{ padding: 15 }} onPress={() => { pickImage("media"); props.setModalVisible(false); }} >
             <Text> Pick from gallery ...</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={{ padding: 15 }} onPress={() => { props.setModalVisible(false); }} >
+          <TouchableOpacity style={{ padding: 15 }} onPress={() => {
+            setTimeout(async function () { await pickImage("camera"); }, 100);
+           }} >
             <Text>Remove Photo</Text>
           </TouchableOpacity>
         </View>
